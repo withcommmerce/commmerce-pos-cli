@@ -1,0 +1,61 @@
+{
+  "name": "cpos-plugin-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for creating and building CommercePOS plugins with HTML/CSS/JavaScript",
+  "main": "bin/cpos-plugin.js",
+  "bin": {
+    "cpos-plugin": "./bin/cpos-plugin.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0",
+    "prepare": "echo 'Package ready for publishing'",
+    "prepublishOnly": "echo 'Ready to publish to npm'",
+    "publish:npm": "npm publish --access public",
+    "publish:github": "npm publish --registry=https://npm.pkg.github.com",
+    "publish:all": "npm run publish:npm && npm run publish:github"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "commercepos",
+    "pos",
+    "plugin",
+    "cli",
+    "point-of-sale",
+    "webview",
+    "html",
+    "css",
+    "javascript",
+    "plugin-development",
+    "retail",
+    "commerce"
+  ],
+  "author": "CommercePOS <developer@commercepos.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/withcommmerce/commmerce-pos-cli.git"
+  },
+  "homepage": "https://github.com/withcommmerce/commmerce-pos-cli#readme",
+  "bugs": {
+    "url": "https://github.com/withcommmerce/commmerce-pos-cli/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "fs-extra": "^11.2.0",
+    "archiver": "^6.0.1",
+    "ora": "^5.4.1"
+  }
+}

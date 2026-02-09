@@ -1,0 +1,38 @@
+# Development files
+node_modules/
+.git/
+.gitignore
+.DS_Store
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Documentation (README is included via files field)
+docs/
+
+# Example plugins
+plugins/
+
+# Build artifacts
+*.log
+*.tmp
+coverage/
+.nyc_output/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Misc
+*.tgz
+*.tar.gz
