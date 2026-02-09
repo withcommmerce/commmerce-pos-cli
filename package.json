@@ -1,6 +1,6 @@
 {
   "name": "cpos-plugin-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool for creating and building CommercePOS plugins with HTML/CSS/JavaScript",
   "main": "bin/cpos-plugin.js",
   "bin": {
